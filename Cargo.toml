@@ -7,8 +7,28 @@ authors = ["{{authors}}"]
 edition = "2018"
 
 [[bin]]
-name = "main"
-path = "src/main.rs"
+name = "a"
+path = "src/a.rs"
+
+[[bin]]
+name = "b"
+path = "src/b.rs"
+
+[[bin]]
+name = "c"
+path = "src/c.rs"
+
+[[bin]]
+name = "d"
+path = "src/d.rs"
+
+[[bin]]
+name = "e"
+path = "src/e.rs"
+
+[[bin]]
+name = "f"
+path = "src/f.rs"
 
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
@@ -75,7 +95,7 @@ path = "src/main.rs"
 #superslice = "=1.0.0"
 
 # イテレータの拡張
-#itertools = "=0.9.0"
+itertools = "=0.9.0"
 
 # イテレータの拡張（一次元累積和と浮動小数点数の等差数列）
 #itertools-num = "=0.1.3"
