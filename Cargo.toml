@@ -30,6 +30,14 @@ path = "src/e.rs"
 name = "f"
 path = "src/f.rs"
 
+[[bin]]
+name = "g"
+path = "src/g.rs"
+
+[[bin]]
+name = "h"
+path = "src/h.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
