@@ -140,5 +140,19 @@ whiteread = "=0.5.0"
 
 # ---------------------------------------------------------------------
 
+ac-library-rs-parted             = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-convolution = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-dsu         = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-fenwicktree = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-lazysegtree = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-math        = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-maxflow     = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-mincostflow = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-modint      = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-scc         = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-segtree     = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-string      = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+ac-library-rs-parted-twosat      = { git = "https://github.com/qryxip/ac-library-rs-parted" }
+
 [dev-dependencies]
-cli_test_dir = "0.1"
+# cli_test_dir = "0.1"
