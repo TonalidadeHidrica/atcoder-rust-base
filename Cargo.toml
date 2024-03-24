@@ -51,12 +51,12 @@ pathfinding = "=4.3.0"
 recur-fn = "=2.2.0"
 
 # 添字アクセスを安全に
-indexing = "=0.4.1"
+indexing = { version = "=0.4.1", features = ["experimental_pointer_ranges"] }
 
 # ちょっと便利な型と derive の詰め合わせ
-amplify = "=3.14.2"
+amplify = { version = "=3.14.2", features = ["c_raw", "rand", "stringly_conversions"] }
 amplify_derive = "=2.11.3"
-amplify_num = "=0.4.1"
+amplify_num = { version = "=0.4.1", features = ["std"] }
 
 # extension trait parttern のショートハンド
 easy-ext = "=1.0.1"
@@ -112,7 +112,7 @@ alga = "=0.9.3"
 libm = "=0.2.7"
 
 # 乱数
-rand = "=0.8.5"
+rand = { version = "=0.8.5", features = ["small_rng", "min_const_gen"] }
 getrandom = "=0.2.10"
 rand_chacha = "=0.3.1"
 rand_core = "=0.6.4"
@@ -167,7 +167,7 @@ fixedbitset = "=0.4.2"
 bitset-fixed = "=0.1.0"
 
 # 競技プログラミングの入出力サポートその1
-proconio = "=0.4.5"
+proconio = { version = "=0.4.5", features = ["derive"] }
 
 # 競技プログラミングの入出力サポートその2
 text_io = "=0.1.12"
@@ -178,4 +178,4 @@ text_io = "=0.1.12"
 rustc-hash = "=1.1.0"
 
 # ある長さまでは要素を「直に」持つ可変長配列
-smallvec = "=1.11.0"
+smallvec = { version = "=1.11.0", features = ["const_generics", "const_new", "write", "union", "serde", "arbitrary"] }
